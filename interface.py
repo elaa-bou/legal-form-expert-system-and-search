@@ -19,7 +19,7 @@ import re
 import sys
 
 import streamlit as st
-
+st.set_page_config(initial_sidebar_state="expanded")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from engine import ExpertSystem, OPERATORS          # noqa: E402
