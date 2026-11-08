@@ -109,10 +109,9 @@ def back_button():
 def home_page():
     st.markdown(HOME_CSS, unsafe_allow_html=True)
     st.markdown(
-        '<div class="mast"><div class="over">IA et ML · II2 · École Nationale des Sciences '
-        "de l'Informatique</div>"
+        
         '<div class="title">Menu principal</div>'
-        '<div class="sub">Assignment 1 — Systèmes experts et algorithmes de recherche</div></div>',
+        '<div class="sub"> — Systèmes experts et algorithmes de recherche</div></div>',
         unsafe_allow_html=True,
     )
     st.markdown('<div class="menu-label">Choisissez un module</div>', unsafe_allow_html=True)
