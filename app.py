@@ -24,6 +24,20 @@ import sys
 
 import streamlit as st
 
+st.markdown("""
+<style>
+    /* Cache la barre blanche du haut */
+    [data-testid="stHeader"] {
+        display: none;
+    }
+
+    /* Réduit l'espace vide laissé en haut */
+    .block-container {
+        padding-top: 1rem;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 # Permet d'importer les modules voisins quel que soit le dossier de lancement.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
