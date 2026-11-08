@@ -5,7 +5,7 @@ An interactive application developed with **Python and Streamlit** .
 The application brings together two fundamental concepts of Artificial Intelligence: **rule-based reasoning through expert systems** and **problem-solving through search algorithms**.
 
 ---
-Live Demo
+## Live Demo
 
 Try the application directly through Streamlit:
 
