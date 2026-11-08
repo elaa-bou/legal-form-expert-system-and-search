@@ -50,7 +50,15 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-
+st.markdown("""
+<style>
+    [data-testid="stSidebarCollapsedControl"],
+    [data-testid="collapsedControl"] {
+        display: flex !important;
+        visibility: visible !important;
+    }
+</style>
+""", unsafe_allow_html=True)
 # Permet d'importer les modules voisins quel que soit le dossier de lancement.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
