@@ -108,11 +108,7 @@ def home_page():
         st.markdown(
             '<div class="card"><div class="num">1</div>'
             '<div class="ttl">Systèmes experts</div>'
-            '<div class="dsc">Base de faits et base de règles : identification de la forme '
-            "juridique d'une société tunisienne par raisonnement.</div>"
-            "<ul><li>Chaînage avant et chaînage arrière</li>"
-            "<li>Raisonnement détaillé étape par étape</li>"
-            "<li>Édition, sauvegarde et rechargement de la base</li></ul></div>",
+            '<div class="dsc">Base de faits et base de règles : identification de la forme ',
             unsafe_allow_html=True,
         )
         st.button("Ouvrir les systèmes experts", type="primary", use_container_width=True,
@@ -122,10 +118,7 @@ def home_page():
             '<div class="card alt"><div class="num">2</div>'
             '<div class="ttl">Algorithmes de recherche</div>'
             '<div class="dsc">Construction d\'un graphe orienté et pondéré, puis recherche '
-            "d'un chemin entre un état initial et un état objectif.</div>"
-            "<ul><li>Recherche non informée et informée (h(n))</li>"
-            "<li>Visualisation du graphe, frontière, chemin et coût</li>"
-            "<li>Comparaison des performances des algorithmes</li></ul></div>",
+            "d'un chemin entre un état initial et un état objectif.</div>",
             unsafe_allow_html=True,
         )
         st.button("Ouvrir les algorithmes de recherche", type="primary",
