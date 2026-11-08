@@ -26,6 +26,8 @@ import streamlit as st
 
 import streamlit as st
 
+import streamlit as st
+
 st.markdown("""
 <style>
     /* La barre devient transparente (plus de blanc) */
@@ -49,7 +51,6 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-
 # Permet d'importer les modules voisins quel que soit le dossier de lancement.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
