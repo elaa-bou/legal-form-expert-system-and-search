@@ -9,8 +9,8 @@ The application brings together two fundamental concepts of Artificial Intellige
 
 Try the application directly through Streamlit:
 
-Launch the AI & Machine Learning Application
-
+[Launch the AI & Machine Learning Application
+](https://legal-form-expert-system-and-search-upnvfi7bjedniknxt4ebbh.streamlit.app/)
 No local installation is required to explore the application.
 
 ## Project Overview
