@@ -28,29 +28,7 @@ import streamlit as st
 
 import streamlit as st
 
-st.markdown("""
-<style>
-    /* La barre devient transparente (plus de blanc) */
-    [data-testid="stHeader"] {
-        background: transparent;
-    }
 
-    /* On cache seulement Share / étoile / crayon / GitHub / menu ⋮ */
-    [data-testid="stToolbar"] {
-        display: none;
-    }
-
-    /* On cache la fine ligne de couleur en haut */
-    [data-testid="stDecoration"] {
-        display: none;
-    }
-
-    /* Réduit l'espace vide en haut */
-    .block-container {
-        padding-top: 1rem;
-    }
-</style>
-""", unsafe_allow_html=True)
 # Permet d'importer les modules voisins quel que soit le dossier de lancement.
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
